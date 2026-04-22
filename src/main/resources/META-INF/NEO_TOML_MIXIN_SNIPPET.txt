@@ -1,0 +1,4 @@
+# neoforge.mods.toml içine ekle:
+#
+# [[mixins]]
+# config = "tfcwildfire.mixins.json"
