@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tfcwildfire"
+version="${file.jarVersion}"
+displayName="TFC Wildfire"
+authors="fatih"
+description='''
+Realistic and terrifying wildfire spread for TerraFirmaCraft: humidity + temperature + wind driven fire spread, embers, crown fires, and smoldering.
+'''
+
+[[mixins]]
+config="tfcwildfire.mixins.json"
+
+[[dependencies.tfcwildfire]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tfcwildfire]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tfcwildfire]]
+modId="tfc"
+type="required"
+versionRange="[4.0.0,)"
+ordering="AFTER"
+side="BOTH"

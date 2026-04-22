@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.tfcwildfire.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FireBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
